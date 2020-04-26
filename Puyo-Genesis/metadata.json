@@ -1,0 +1,8 @@
+{
+  "default_state": "p1_s1_01",
+  "whitelist": {
+    "data.json": [
+      "Message about variables?"
+    ]
+  }
+}
