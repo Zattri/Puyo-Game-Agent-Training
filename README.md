@@ -20,6 +20,14 @@ pip3 install <package>
 ## Setup Local Game Env
 Move `Puyo-Genesis` folder in repo to `/home/<username>/.local/lib/python3.7/site-packages/retro/data/stable`
 
+## Controls
+A = Left
+S = Down
+D = Right
+
+Left = Rotate Anti-clockwise
+Right = Rotate Clockwise
+
 ## Running the Training Environment:
 The following commands execute one training game at a specified difficulty against the AI of the base game. Your gameplay is recorded and saved to a file in the experiences folder, with a prompt allowing you to name the file after the match concludes. Please name each match uniquely with the schema of "S\<difficulty number\>_\<match_number\>". Once you have played as many matches as desired please place the files in a folder labeled with your name inside the experiences folder.
 
