@@ -36,8 +36,7 @@ python3 interactive.py -st random -d 2
 ```
 
 ### Veteren Training Command
-This command starts a match at the third difficulty of AI, this setting is not recommended.
-Full disclaimer, I have not beaten this difficulty.
+This command starts a match at the third difficulty of AI, this setting is not recommended as it is very hard.
 ```
 python3 interactive.py -st random -d 3
 ```
