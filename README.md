@@ -31,6 +31,8 @@ Right = Rotate Clockwise
 ## Running the Training Environment:
 The following commands execute one training game at a specified difficulty against the AI of the base game. Your gameplay is recorded and saved to a file in the experiences folder, with a prompt allowing you to name the file after the match concludes. Please name each match uniquely with the schema of "S\<difficulty number\>_\<match_number\>". Once you have played as many matches as desired please place the files in a folder labeled with your name inside the experiences folder.
 
+Please record the score and time of each match (found in console after matches conclude) in a notepad file, and place in the folder alongside experience replay data.
+
 ### Basic Training Command
 The match will be played on one of 5 randomised stages against the first difficulty of in-game AI, this setting is the most recommended.
 ```
