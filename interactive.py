@@ -158,7 +158,7 @@ class Interactive(abc.ABC):
                     # Appending latest observations to memory
                     if len(self.obs_memory) >= self.recording_memory_size:
                         self.obs_memory.pop(0)
-                    self.obs_memory.append(exp_rep.compressObservation(obs_img))
+                    self.obs_memory.append(obs_img)
 
                 if rew >= self.reward_threshold:
                     # Fill up blank memory with NONE
@@ -188,6 +188,7 @@ class Interactive(abc.ABC):
                     print(mess)
 
                 if done or (self.last_play_time != None and self.current_play_time == self.last_play_time):
+                    print(f"SCORE: {_info.get('p2_score')} | TIME: {self.current_play_time}")
                     self._env.reset()
                     self._episode_steps = 0
                     self._episode_returns = 0
