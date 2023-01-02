@@ -1,4 +1,4 @@
-# AI Game Agent Training Platform (For Puyo-Game-Agent)
+# AI Game Agent Training Platform (Puyo-Game-Agent)
 A training platform developed in tandem with the puyo-gym game AI project to allow gathering of player gameplay data to use as training data for the AI agent. This reposoitory includes the gathered data from each participant, the deployable platform and setup features for running the game, as well as instructions for gameplay and recording. Players would play several matches against the in-game AI on different difficulties to simulate a variety of gameplay conditions; each match's state was then recorded and replayed as training data to the AI agent to aid its reinforcement learning training by weighting its actions towards human made movements.
 
 ## Gameplay Agent
